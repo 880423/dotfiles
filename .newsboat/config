@@ -1,0 +1,9 @@
+always-display-description yes
+auto-reload yes
+refresh-on-startup yes
+
+
+browser "/usr/bin/lynx %u"
+macro m set browser "/usr/bin/mpv %u";  open-in-browser ; set browser "/usr/bin/lynx %u"
+macro f set browser "/usr/bin/firefox -private-window %u";  open-in-browser
+macro l set browser "/usr/bin/lynx %u"; open-in-browser
