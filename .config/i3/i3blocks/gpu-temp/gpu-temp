@@ -1,0 +1,1 @@
+nvidia-settings -q gpucoretemp -t | awk '{print $1 "°C";exit}'

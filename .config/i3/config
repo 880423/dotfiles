@@ -253,7 +253,7 @@ bar {
 	font pango: Noto Sans 10
 	status_command i3blocks -c ~/.config/i3/i3blocks.cfg
 	separator_symbol "།"
-
+#    tray_output none
    colors {
          background #3B4252
 #        statusline #2EB398

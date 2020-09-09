@@ -2,7 +2,7 @@
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
 [keybindings]
   new_tab = <Primary>t
-  new_window = <Primary>n
+  new_window = <Primary><Alt>n
 [profiles]
   [[default]]
     background_color = "#2e3440"
